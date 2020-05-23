@@ -62,6 +62,7 @@ export default {
 
 html{
   height: 100%;
+  overflow-x:hidden;
 }
 
 body{
