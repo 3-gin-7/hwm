@@ -62,7 +62,6 @@ export default {
 
 html{
   height: 100%;
-  overflow-x:hidden;
 }
 
 body{
@@ -74,6 +73,10 @@ body{
 a{
     color: inherit;
     text-decoration:none;
+}
+
+#app{
+  overflow-x:hidden;
 }
 .header{
     width:100%;
