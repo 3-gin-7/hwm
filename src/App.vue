@@ -2,7 +2,6 @@
   <div id="app">
     <div class="header">
       <div class="logo">
-        <img src="./assets/logo.jpg" alt="logo">
         <p>HWM</p>
         </div>
             <ul class="nav-bar" v-bind:class="{'active': this.isClicked}">
@@ -119,12 +118,6 @@ a{
 .logo{
   display: flex;
   align-items: center;
-}
-
-.logo >img{
-  border-radius: 20px;
-  height:100px;
-  width:100px;
 }
 
 .logo>p{
