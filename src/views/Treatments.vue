@@ -63,7 +63,7 @@ export default {
             id:4,
             title:"Swedish",
             description:"With long gliding strokes, this massage relaxes the body and relieves the stress and pressure.",
-            price:"<p>60min/R500</p><p>90min/R550</p>",
+            price:"<p>60min/R500</p><p>90min/R600</p><p>120min/R900</p>",
             extraInfo:"Swedish massage has many benefits to overall physical and mental state of the body. Swedish massage provides relaxation, reduces stress, increases flexibility, improves posture and blood circulation."
             },
             {

@@ -2,6 +2,7 @@
   <div id="app">
     <div class="header">
       <div class="logo">
+        <img src="./assets/logo-1.svg" alt="logo" srcset="">
         <p>HWM</p>
         </div>
             <ul class="nav-bar" v-bind:class="{'active': this.isClicked}">
@@ -77,6 +78,7 @@ a{
 #app{
   overflow-x:hidden;
 }
+
 .header{
     width:100%;
     min-height:15vh;
@@ -84,11 +86,6 @@ a{
     justify-content: space-between;
     align-items: center;
     background: #F2F1F1;
-}
-
-.logo{
-    flex:1;
-    font-size:1.6rem;
 }
 
 .nav-bar{
@@ -118,13 +115,20 @@ a{
 .logo{
   display: flex;
   align-items: center;
+  flex:1;
+}
+
+.logo>img{
+  width: 150px;
+  height:150px;
 }
 
 .logo>p{
   font-size: 2rem;
   padding:10px;
-  color:rgb(27, 27, 27);
+  color:#203567;
 }
+
 
 .burger{
   cursor: pointer;

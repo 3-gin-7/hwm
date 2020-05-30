@@ -18,7 +18,7 @@
               rehabilitation programs that include massage sessions.
             </p>
             <p>
-              After several years of experience as a biokinetics I’ve realized
+              After several years of experience as a biokineticist I’ve realized
               how powerful massage can be and decided to walk this path. I’ve
               completed additional courses for Remedial & Sport massage,
               Lomi-Lomi, Reflexology (Thai routine) Thai Yoga Massage and it`s
