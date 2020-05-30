@@ -14,9 +14,7 @@
               </div>
               <div>
               <h1>Working Hours</h1>
-              <span>05:30 - 19:00 Mon-Fri</span>
-              <br>
-              <span>05:30 - 19:00 Sat-Sun</span>
+              <span>05:30 - 19:00 Everyday</span>
               <br>
               <span>Located in Gauteng, Edenvale</span>
               </div>
