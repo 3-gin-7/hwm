@@ -161,6 +161,7 @@ a{
   }
 
   .nav-bar{
+    overflow-x:hidden;
     position: absolute;
     top:15vh;
     right:5%;
@@ -168,10 +169,9 @@ a{
     background: rgba(242, 241, 241, 0.822);
     padding:10% 0;
     height:100vh;
-    width:40%;
+    width:0px;
     align-items: center;
-    transform: translateX(120%);
-    transition: all 0.5s ease;
+    transition: all 0.5s ease-in-out;
   }
 
   .burger{
@@ -179,7 +179,7 @@ a{
   }
 
   .active{
-  transform:translateX(0%);
+  width:40%;
 }
 }
 
