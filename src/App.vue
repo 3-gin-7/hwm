@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" v-on:click="this.bodyClick">
     <div class="header">
       <div class="logo">
         <img src="./assets/logo-1.svg" alt="logo" srcset="">
@@ -9,6 +9,7 @@
                 <li><router-link to="/">Home</router-link></li>
                 <li><router-link to="/about">About</router-link></li>
                 <li><router-link to="/treatments">Treatments</router-link></li>
+                <li><router-link to="/travelers">Travelers</router-link></li>
                 <li><router-link to="/contact">Contact</router-link></li>
                 <li><router-link to="/policies">Policies</router-link></li>
                 <li><router-link to="/faq">FAQ</router-link></li>
@@ -32,8 +33,12 @@ export default {
     }
   },
   methods:{
-    navClick(){
-      this.isClicked = !this.isClicked
+    navClick : function(ev){
+      this.isClicked = !this.isClicked;
+      ev.stopPropagation();
+    },
+    bodyClick(){
+      this.isClicked = false;
     }
   }
 }
@@ -77,6 +82,7 @@ a{
 
 #app{
   overflow-x:hidden;
+  overflow-y:hidden;
 }
 
 .header{
@@ -101,6 +107,7 @@ a{
 .nav-bar > li{
     display: inline;
     cursor:pointer;
+    padding:5px;
     transition: all 0.5s;
 }
 
@@ -131,6 +138,7 @@ a{
 
 
 .burger{
+  z-index: 1;
   cursor: pointer;
   width:50px;
   height:50px;
@@ -162,12 +170,13 @@ a{
 
   .nav-bar{
     overflow-x:hidden;
-    position: absolute;
-    top:15vh;
-    right:5%;
+    position: fixed;
+    top:0;
+    right:0;
     flex-direction: column;
     background: rgba(242, 241, 241, 0.822);
-    padding:10% 0;
+    padding-top:15vh;
+    padding-bottom:5vh;
     height:100vh;
     width:0px;
     align-items: center;
@@ -179,7 +188,7 @@ a{
   }
 
   .active{
-  width:40%;
+  width:60%;
 }
 }
 

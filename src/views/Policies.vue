@@ -21,6 +21,7 @@
               <li>Diabetes (needs medical referral)</li>
               <li>Eczema or Psoriasis (needs medical referral)</li>
               <li>Sunburn</li>
+              <li>Open wounds</li>
             </ul>
           </li>
           <li class="main-list-item">
