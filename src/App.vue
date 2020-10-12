@@ -9,7 +9,7 @@
                 <li><router-link to="/">Home</router-link></li>
                 <li><router-link to="/about">About</router-link></li>
                 <li><router-link to="/treatments">Treatments</router-link></li>
-                <li><router-link to="/travelers">Travelers</router-link></li>
+                <li><router-link to="/travelers">Travellers</router-link></li>
                 <li><router-link to="/contact">Contact</router-link></li>
                 <li><router-link to="/policies">Policies</router-link></li>
                 <li><router-link to="/faq">FAQ</router-link></li>
