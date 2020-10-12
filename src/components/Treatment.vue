@@ -89,6 +89,7 @@ export default {
     }
 
     .extraThings{
+        width:100%;
         font-size: 1.2rem;
         height: 0px;
         opacity:0;
