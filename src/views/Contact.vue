@@ -6,17 +6,17 @@
               <div>
               <h1>Contact Details</h1>
               <h2>Lara Maier</h2>
-              <span>Cell: (+27)677050079 (Whatsapp Only)</span>
+              <span>Cell: (+27)677050079 (WhatsApp Only)</span>
               <br>
-              <span>Email:maierlgv@gmail.com</span>
+              <span>Email:hwmassage20@gmail.com</span>
+              <br>
+              <span>When you make an appointment please include the following: Your Name, Treatment of choice and Date and time preferred</span>
               </div>
               <div>
               <h1>Working Hours</h1>
-              <span>05:30 - 19:00 Mon-Fri</span>
+              <span>05:30 - 19:00 Everyday</span>
               <br>
-              <span>05:30 - 19:00 Sat-Sun</span>
-              <br>
-              <span>Locatated in Gauteng, Edenvale</span>
+              <span>Located in Gauteng, Edenvale</span>
               </div>
           </div>
       </div>
@@ -65,6 +65,11 @@ export default {
         font-size: 2rem;
         text-align: center;
         padding-bottom: 10px;
+    }
+
+    .contact-info>div>h2{
+        font-size:1.5rem;
+        padding: 5px 0px;
     }
 
     .contact-info > div>span{

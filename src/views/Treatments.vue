@@ -5,13 +5,13 @@
             <div class="discount">
 
                 <div class="discount-info">
-                <h3>Buying any 5 massages</h3>
-                <p>When buying 5 massages you get 5% off. Valid for 7 weeks</p>
+                <h3>Buying any 5 treatments</h3>
+                <p>When buying 5 treatments you get 5% off. Valid for 7 weeks</p>
                 </div>
 
                 <div class="discount-info">
-                <h3>Buying 10 massages</h3>
-                <p>When buying 10 massages you get 10% off. Valid for 12 weeks</p>
+                <h3>Buying 10 treatments</h3>
+                <p>When buying 10 treatments you get 10% off. Valid for 12 weeks</p>
                 </div>
 
             </div>
@@ -41,71 +41,94 @@ export default {
             {
             id:1,
             title:"Back, Neck & Shoulder Massage",
-            description:"This massage focuses purely on the back and shoulder areas to relieve tension of these commonly overstressed muscles.",
+            description:`This massage focuses purely on the back and shoulder areas to relieve tension 
+            of these commonly overstressed muscles.`,
             price:"<p>30min/R250</p><p>45min/R300</p>",
-            extraInfo:"This type of massage can encourage relaxation, relieve stress, improve blood circulation, relieving headaches and improving flexibility."
+            extraInfo:`This type of massage can encourage relaxation, relieve stress, improve blood circulation, 
+            relieving headaches and improving flexibility.`
             },
             {
             id:2,
             title:"Reflexology (Thai Routine)",
-            description:"This massage is an alternative medical practice involving the application of pressure to specific points on hands and feet.",
+            description:`This massage is an alternative medical practice involving the application of pressure to specific 
+            points on hands and feet.`,
             price:"<p>45min/R350</p>",
-            extraInfo:"Reflexology can help with relaxation, increase blood circulation, body detoxification, improve nerve function and brain power and boost metabolism and energy levels. Treatment starts with soaking feet in the aroma salt bath."
+            extraInfo:`Reflexology can help with relaxation, increase blood circulation, body detoxification, 
+            improve nerve function and brain power and boost metabolism and energy levels. Treatment starts with 
+            soaking feet in the aroma salt bath.`
             },
             {
             id:3,
             title:"Lomi-Lomi",
-            description:"Lomi lomi is a traditional Hawaiian massage that uses a combination of massage techniques and nut oils",
+            description:`Lomi lomi is a traditional Hawaiian massage that uses a combination of massage 
+            techniques and nut oils`,
             price:"<p>60min/R500</p><p>90 min/R570</p>",
-            extraInfo:"The benefits of Lomi-Lomi massage include relaxing muscles, promoting circulation and releasing blocked energy."
+            extraInfo:`The benefits of Lomi-Lomi massage include relaxing muscles, promoting circulation and 
+            releasing blocked energy.`
             },
             {
             id:4,
             title:"Swedish",
             description:"With long gliding strokes, this massage relaxes the body and relieves the stress and pressure.",
-            price:"<p>60min/R500</p><p>90min/R550</p>",
-            extraInfo:"Swedish massage has many benefits to overall physical and mental state of the body. Swedish massage provides relaxation, reduces stress, increases flexibility, improves posture and blood circulation."
+            price:"<p>60min/R500</p><p>90min/R600</p><p>120min/R900</p>",
+            extraInfo:`Swedish massage has many benefits to overall physical and mental state of the body. 
+            Swedish massage provides relaxation, reduces stress, increases flexibility, improves posture and blood circulation.`
             },
             {
             id:5,
             title:"Deep Tissue/SportMassage",
-            description:"Deep tissue massage applies the same strokes as Swedish massage but with more pressure in order to reach deep muscle tissue.",
+            description:`Deep tissue massage applies the same strokes as Swedish massage but with more pressure in order
+             to reach deep muscle tissue.`,
             price:"<p>60min/R550</p><p>90min/R600</p>",
-            extraInfo:"This type of massage helps to improve low back pain, limited mobility, postural problems, muscle tension osteoarthritis pain, aid sport-related muscle recovery and aids injury rehabilitation."
+            extraInfo:`This type of massage helps to improve low back pain, limited mobility, postural problems, muscle 
+            tension osteoarthritis pain, aid sport-related muscle recovery and aids injury rehabilitation.`
             },
             {
             id:6,
             title:"Aromatherapy",
-            description:"Aromatherapy utilizes, gentle massage as well as essential oils in order to improve physical and psychological health.",
+            description:`Aromatherapy utilizes, gentle massage as well as essential oils in order to improve 
+            physical and psychological health.`,
             price:"<p>60min/R550</p><p>90min/R580</p>",
             extraInfo:"Aromatherapy helps to improve sleep quality, boost immune system, reduce stress and irritation and manage pain."
             },
             {
             id:7,
             title:"Remedial",
-            description:"The main purpose of remedial massage is to find and heal the areas of the body that are damaged as well as speed up the natural body repairing process",
+            description:`The main purpose of remedial massage is to find and heal the areas of the body that are damaged 
+            as well as speed up the natural body repairing process`,
             price:"<p>90min/R600</p>",
-            extraInfo:"Remedial massage is a mix of techniques such as neuromuscular technique, post-isometric relaxation, reciprocal inhibition, proprioceptive neuromuscular facilitation, soft tissue release and connective tissue manipulation. This massage is beneficial to the athletes and people who sufferer from high stress and tension."
+            extraInfo:`Remedial massage is a mix of techniques such as neuromuscular technique, post-isometric relaxation, 
+            reciprocal inhibition, proprioceptive neuromuscular facilitation, soft tissue release and connective tissue 
+            manipulation. This massage is beneficial to the athletes and people who sufferer from high stress and tension.`
             },
             {
             id:8,
             title:"Thai Yoga Massage",
-            description:"This massage is mix of different techniques that include osteopathic stretches and assisted yoga postures that can help athletes with sport related issues and increase sport performance.",
+            description:`This massage is mix of different techniques that include osteopathic stretches 
+            and assisted yoga postures that can help athletes with sport related issues and increase sport performance.`,
             price:"<p>90min/R600</p>",
-            extraInfo:"Thai Yoga massage helps to increase flexibility, relieve pain and muscle tension, improve the range of motion, relax and relieve stress, improve range of motion, improve circulation and lymphatic flow, reduce headaches and increase energy levels."
+            extraInfo:`Thai Yoga massage helps to increase flexibility, relieve pain and muscle tension, 
+            improve the range of motion, relax and relieve stress, improve range of motion, improve circulation 
+            and lymphatic flow, reduce headaches and increase energy levels.`
             },
             {
             id:9,
             title:"CBD(Cannabidiol) Massage",
-            description:"A CBD massage treatment involves CBD tea(before the massage) + CBD oil(that is infused with MCT) and mixed with Frankincense, Peppermint, Orange and Lavender oils. The treatment helps with multiple pain-related conditions",
+            description:`A CBD massage treatment involves CBD tea(before the massage) + CBD oil(that is infused with MCT)
+             and mixed with Frankincense, Peppermint, Orange and Lavender oils. The treatment helps with multiple 
+             pain-related conditions`,
             price:"<p>75min/R650</p>",
-            extraInfo:"CBD has no THC therefore it has no drug effect and government approved. CBD has healing properties and moisturizes without clogging pores whilst being good for all skin types, including oily skin as it is sebum regulating and will not make skin more oily. CBD helps with skin conditions like Eczema and Psoriasis and dry skin."
+            extraInfo:`CBD has no THC therefore it has no drug effect and government approved. CBD has healing 
+            properties and moisturizes without clogging pores whilst being good for all skin types, including oily 
+            skin as it is sebum regulating and will not make skin more oily. CBD helps with skin conditions like 
+            Eczema and Psoriasis and dry skin.`
             },
             {
             id:10,
             title:"Laser",
-            description:"This kind of treatment uses focused light that is tuned to specific wavelengths in order to treat a wide variety of issues.",
-            price:"<p>after consultation</p>",
+            description:`This kind of treatment uses focused light that is tuned to specific wavelengths in order 
+            to treat a wide variety of issues.`,
+            price:"<p>Price given after consultation</p>",
             extraInfo:"Laser is used to help in the following areas:"+
             "<ul class='list'>"+
             "<li>Cardiology: angina, hypertension, cardiovascular diseases</li>"+
@@ -126,7 +149,9 @@ export default {
             {
             id:11,
             title:"Cupping",
-            description:"Cupping therapy is an ancient form of alternative medicine in which a therapist puts special cups on your skin for a few minutes to create suction that can help relax muscles, relief pain and part of cellulite treatment.",
+            description:`Cupping therapy is an ancient form of alternative medicine in which a therapist 
+            puts special cups on your skin for a few minutes to create suction that can help relax muscles, 
+            relief pain and part of cellulite treatment.`,
             price:"<p>60min/R550</p><p>90min/R580</p>",
             extraInfo:"Cupping can have the following benefits on your body:"+
             "<ul class='list'>"+
@@ -140,9 +165,65 @@ export default {
             {
             id:12,
             title:"Mother-To-Be",
-            description:"A massage using specific prenatal techniques, to help increase circulation, alleviate tired muscles and relieve mental and physical fatigue.",
+            description:`A massage using specific prenatal techniques, to help increase circulation, alleviate
+             tired muscles and relieve mental and physical fatigue.`,
             price:"<p>60min/R500</p>",
-            extraInfo:"This treatment can help to lower anxiety, decrease back and leg pain, improve sleep and decrease stress.The treatment can only be performed after 15 weeks of pregnancy"
+            extraInfo:`This treatment can help to lower anxiety, decrease back and leg pain, improve sleep 
+            and decrease stress.The treatment can only be performed after 15 weeks of pregnancy`
+            },
+            {
+            id:13,
+            title:"Hot Stone Massage",
+            description:`This massage involves placement of smooth, heated stones to the body in order to relief 
+            pain and stress.`,
+            price:"<p>60min/R600</p><p>90min/R650</p>",
+            extraInfo:"Hot stone massage can have the following benefits on your body:"+
+            "<ul class='list'>"+
+            "<li>Relieves muscle tension and pain</li>"+
+            "<li>Reduces stress and anxiety</li>"+
+            "<li>Improves blood circulation and flow of energy</li>"+
+            "<li>Increases joint flexibility</li>"+
+            "<li>Promotes Sleep</li>"+
+            "</ul>"
+            },
+            {
+            id:14,
+            title:"Waxing",
+            description:"",
+            price:"See the Read more",
+            extraInfo:"<ul class='list'>"+
+            "<li>Full Face: R180</li>"+
+            "<li>Half Leg: R150</li>"+
+            "<li>Full Leg: R200</li>"+
+            "<li>Bikini: R100</li>"+
+            "<li>Hollywood: R210</li>"+
+            "<li>Under Arm: R90</li>"+
+            "<li>Full Arm: R130</li>"+
+            "<li>Half Arm: R100</li>"+
+            "<li>Chest: R180</li>"+
+            "<li>Back: R150</li>"+
+            "<li>Brows: R70</li>"+
+            "<li>Lips: R60</li>"+
+            "<li>Brow & Lip: R120</li>"+
+            "<li>Brow, Lip & Chin: R180</li>"+
+            "<li>Upper leg, Bikini: R180</li>"+
+            "</ul>"
+            },
+            {
+            id:15,
+            title:"Microneedling",
+            description:`Microneedling is a cosmetic procedure that involves repeatedly puncturing the skin 
+            with tiny, sterile needles to treat variety of different skin conditions and to improve skin rejuvenation.`,
+            price:"See Read More",
+            extraInfo:"<ul class='list'>"+
+            "<li>Face, neck and decollete: R1500/75min</li>"+
+            "<li>Face: R900/60min</li>"+
+            "<li>Neck: R500/45min</li>"+
+            "<li>Decollete: R600/45min</li>"+
+            "</ul>"+
+            "<h2>Treatment includes:</h2>"+
+            "One ampule"+
+            "Laser or Darsonval device treatment"
             }
             ]
         }
@@ -175,7 +256,7 @@ export default {
     background: #F2F1F1;
     text-align:center;
     font-size:2rem;
-    padding:10px 0 0 0;
+    padding-left:10px;
 }
 
 .discount-container{
