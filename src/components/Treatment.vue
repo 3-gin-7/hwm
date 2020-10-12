@@ -106,9 +106,7 @@ export default {
         .treatBox-container{
             min-height:35vh;
         }
-        
-
-        
+                
     }
     
 </style>
