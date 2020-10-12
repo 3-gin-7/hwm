@@ -106,15 +106,7 @@ export default {
         .treatBox-container{
             min-height:35vh;
         }
-        
-
-        #ReadMore{
-            display:none;
-        }
-
-        .extraThings{
-            display:none;
-        }
+                
     }
     
 </style>
