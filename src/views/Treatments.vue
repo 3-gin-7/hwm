@@ -218,9 +218,10 @@ export default {
             <p>Face: R900</p>
             <p>Neck: R500</p>
             <p>Decollete: R600</p>`,
-            extraInfo:  "Treatment includes:" +
-                        "<ul class='list'><li>One ampule</li>" +
-                        "<li>Laser or Darsonval device treatment</li></ul>"
+            extraInfo:  `Treatment includes:
+                        <ul class='list'>
+                        <li>One ampule</li>
+                        <li>Laser or Darsonval device treatment</li></ul>`
             }
             ]
         }
