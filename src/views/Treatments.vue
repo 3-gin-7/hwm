@@ -189,8 +189,8 @@ export default {
             {
             id:14,
             title:"Waxing",
-            description:"",
-            price:"See the Read more",
+            description:"Hair removal with wax.",
+            price:"<p>Price Ranges from R60 to R210.See the Read more</p>",
             extraInfo:"<ul class='list'>"+
             "<li>Full Face: R180</li>"+
             "<li>Half Leg: R150</li>"+
@@ -214,16 +214,13 @@ export default {
             title:"Microneedling",
             description:`Microneedling is a cosmetic procedure that involves repeatedly puncturing the skin 
             with tiny, sterile needles to treat variety of different skin conditions and to improve skin rejuvenation.`,
-            price:"See Read More",
-            extraInfo:"<ul class='list'>"+
-            "<li>Face, neck and decollete: R1500/75min</li>"+
-            "<li>Face: R900/60min</li>"+
-            "<li>Neck: R500/45min</li>"+
-            "<li>Decollete: R600/45min</li>"+
-            "</ul>"+
-            "<h2>Treatment includes:</h2>"+
-            "One ampule"+
-            "Laser or Darsonval device treatment"
+            price:`<p>Face, Neck and Decollete: R1500</p>
+            <p>Face: R900</p>
+            <p>Neck: R500</p>
+            <p>Decollete: R600</p>`,
+            extraInfo:  "Treatment includes:" +
+                        "<ul class='list'><li>One ampule</li>" +
+                        "<li>Laser or Darsonval device treatment</li></ul>"
             }
             ]
         }
@@ -284,4 +281,5 @@ export default {
 .discount-info>p{
     font-size:1.5rem;
 }
+
 </style>

@@ -108,13 +108,7 @@ export default {
         }
         
 
-        #ReadMore{
-            display:none;
-        }
-
-        .extraThings{
-            display:none;
-        }
+        
     }
     
 </style>

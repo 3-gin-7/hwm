@@ -55,6 +55,7 @@ export default {
 
 .list>li{
   line-height: 1.5em;
+  font-size:1.1rem;
 }
 
 * , html{
