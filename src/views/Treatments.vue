@@ -43,7 +43,7 @@ export default {
             title:"Back, Neck & Shoulder Massage",
             description:`This massage focuses purely on the back and shoulder areas to relieve tension 
             of these commonly overstressed muscles.`,
-            price:"<p>30min/R250</p><p>45min/R300</p>",
+            price:"<p>30min/R300</p><p>45min/R350</p>",
             extraInfo:`This type of massage can encourage relaxation, relieve stress, improve blood circulation, 
             relieving headaches and improving flexibility.`
             },
@@ -52,7 +52,7 @@ export default {
             title:"Reflexology (Thai Routine)",
             description:`This massage is an alternative medical practice involving the application of pressure to specific 
             points on hands and feet.`,
-            price:"<p>45min/R350</p>",
+            price:"<p>45min/R400</p>",
             extraInfo:`Reflexology can help with relaxation, increase blood circulation, body detoxification, 
             improve nerve function and brain power and boost metabolism and energy levels. Treatment starts with 
             soaking feet in the aroma salt bath.`
