@@ -43,7 +43,7 @@ export default {
             title:"Back, Neck & Shoulder Massage",
             description:`This massage focuses purely on the back and shoulder areas to relieve tension 
             of these commonly overstressed muscles.`,
-            price:"<p>30min/R300</p><p>45min/R350</p>",
+            price:"<p>30min/R350</p><p>45min/R400</p>",
             extraInfo:`This type of massage can encourage relaxation, relieve stress, improve blood circulation, 
             relieving headaches and improving flexibility.`
             },
@@ -52,7 +52,7 @@ export default {
             title:"Reflexology (Thai Routine)",
             description:`This massage is an alternative medical practice involving the application of pressure to specific 
             points on hands and feet.`,
-            price:"<p>45min/R400</p>",
+            price:"<p>45min/R450</p>",
             extraInfo:`Reflexology can help with relaxation, increase blood circulation, body detoxification, 
             improve nerve function and brain power and boost metabolism and energy levels. Treatment starts with 
             soaking feet in the aroma salt bath.`
@@ -62,7 +62,7 @@ export default {
             title:"Lomi-Lomi",
             description:`Lomi lomi is a traditional Hawaiian massage that uses a combination of massage 
             techniques and nut oils`,
-            price:"<p>60min/R500</p><p>90 min/R570</p>",
+            price:"<p>60min/R600</p><p>90 min/R700</p>",
             extraInfo:`The benefits of Lomi-Lomi massage include relaxing muscles, promoting circulation and 
             releasing blocked energy.`
             },
@@ -70,7 +70,7 @@ export default {
             id:4,
             title:"Swedish",
             description:"With long gliding strokes, this massage relaxes the body and relieves the stress and pressure.",
-            price:"<p>60min/R500</p><p>90min/R600</p><p>120min/R900</p>",
+            price:"<p>60min/R600</p><p>90min/R700</p><p>120min/R1000</p>",
             extraInfo:`Swedish massage has many benefits to overall physical and mental state of the body. 
             Swedish massage provides relaxation, reduces stress, increases flexibility, improves posture and blood circulation.`
             },
@@ -79,7 +79,7 @@ export default {
             title:"Deep Tissue/SportMassage",
             description:`Deep tissue massage applies the same strokes as Swedish massage but with more pressure in order
              to reach deep muscle tissue.`,
-            price:"<p>60min/R550</p><p>90min/R600</p>",
+            price:"<p>60min/R600</p><p>90min/R700</p>",
             extraInfo:`This type of massage helps to improve low back pain, limited mobility, postural problems, muscle 
             tension osteoarthritis pain, aid sport-related muscle recovery and aids injury rehabilitation.`
             },
@@ -88,7 +88,7 @@ export default {
             title:"Aromatherapy",
             description:`Aromatherapy utilizes, gentle massage as well as essential oils in order to improve 
             physical and psychological health.`,
-            price:"<p>60min/R550</p><p>90min/R580</p>",
+            price:"<p>60min/R600</p><p>90min/R650</p>",
             extraInfo:"Aromatherapy helps to improve sleep quality, boost immune system, reduce stress and irritation and manage pain."
             },
             {
@@ -96,7 +96,7 @@ export default {
             title:"Remedial",
             description:`The main purpose of remedial massage is to find and heal the areas of the body that are damaged 
             as well as speed up the natural body repairing process`,
-            price:"<p>90min/R600</p>",
+            price:"<p>90min/R750</p>",
             extraInfo:`Remedial massage is a mix of techniques such as neuromuscular technique, post-isometric relaxation, 
             reciprocal inhibition, proprioceptive neuromuscular facilitation, soft tissue release and connective tissue 
             manipulation. This massage is beneficial to the athletes and people who sufferer from high stress and tension.`
@@ -106,7 +106,7 @@ export default {
             title:"Thai Yoga Massage",
             description:`This massage is mix of different techniques that include osteopathic stretches 
             and assisted yoga postures that can help athletes with sport related issues and increase sport performance.`,
-            price:"<p>90min/R600</p>",
+            price:"<p>90min/R800</p>",
             extraInfo:`Thai Yoga massage helps to increase flexibility, relieve pain and muscle tension, 
             improve the range of motion, relax and relieve stress, improve range of motion, improve circulation 
             and lymphatic flow, reduce headaches and increase energy levels.`
@@ -117,7 +117,7 @@ export default {
             description:`A CBD massage treatment involves CBD tea(before the massage) + CBD oil(that is infused with MCT)
              and mixed with Frankincense, Peppermint, Orange and Lavender oils. The treatment helps with multiple 
              pain-related conditions`,
-            price:"<p>75min/R650</p>",
+            price:"<p>75min/R700</p>",
             extraInfo:`CBD has no THC therefore it has no drug effect and government approved. CBD has healing 
             properties and moisturizes without clogging pores whilst being good for all skin types, including oily 
             skin as it is sebum regulating and will not make skin more oily. CBD helps with skin conditions like 
